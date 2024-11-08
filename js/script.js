@@ -47,7 +47,7 @@ buttons.forEach(button => {
     }
 jugadaPc()
 
-//Comparacion 
+
 switch (true) {
   case (jugada == "piedra" && jugadaAle == 0):
     divResultado.innerHTML += "<p>Han Empatado</p>";
@@ -83,9 +83,14 @@ default:
       pPc.innerText = `La PC Tiene: ${puntosPc} puntos`;
 break;
 }
+const resultElement = divResultado;
+resultElement.classList.remove('animacionSuma');
 
-//Agregar Puntuacion
+// Force a reflow to reset the animation
+void resultElement.offsetWidth;
 
+// Add the animation class again to trigger the animation
+resultElement.classList.add('animacionSuma');
   });
 });
 
