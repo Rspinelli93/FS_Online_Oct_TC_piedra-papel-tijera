@@ -5,16 +5,6 @@ body {
   background-size: cover;
 }
 
-.boton-jugada {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center; 
-}
-
-
 .boton-jugada:hover {
   background-color: #9bc7e4;
   box-shadow: rgb(31, 30, 30) 2px 2px;
@@ -39,6 +29,7 @@ img{
   height: 170px;
   animation: anim 10s infinite linear;
   border: 2px dashed wheat;
+  cursor: pointer;
 }
 
 p, h1, h2{
