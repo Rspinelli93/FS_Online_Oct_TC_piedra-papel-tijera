@@ -17,13 +17,13 @@ buttons.forEach(button => {
     
     switch (jugada) {
         case "piedra":
-          divResultado.innerHTML = "<p>Elegiste Piedra</p>";
+          divResultado.innerHTML = "<p>Elección Usuario: Piedra</p>";
           break;
         case "papel":
-            divResultado.innerHTML = "<p>Elegiste Papel</p>";
+            divResultado.innerHTML = "<p>Elección Usuario: Papel</p>";
           break;
         case "tijera":
-            divResultado.innerHTML = "<p>Elegiste Tijera</p>";
+            divResultado.innerHTML = "<p>Elección Usuario: Tijera</p>";
           break;
       }
 
@@ -35,13 +35,13 @@ buttons.forEach(button => {
       
     switch (jugadaAle) {
   case 0:
-    divResultado.innerHTML += "<p>Elegió Piedra</p>";
+    divResultado.innerHTML += "<p>Elección PC: Piedra</p>";
     break;
   case 1:
-      divResultado.innerHTML += "<p>Elegió Papel</p>";
+      divResultado.innerHTML += "<p>Elección PC: Papel</p>";
     break;
   case 2:
-      divResultado.innerHTML += "<p>Elegió Tijera</p>";
+      divResultado.innerHTML += "<p>Elección PC: Tijera</p>";
     break;
 }
     }

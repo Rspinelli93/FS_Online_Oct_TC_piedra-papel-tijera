@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -22,15 +24,16 @@ body {
 #resultados {
   font-size: 20px;
   margin: 20px 0;
+  border: 1px solid red;
 }
 
 #contador-usuario , #contador-ordenador {
   transition: transform 0.2s ease, opacity 0.5s ease;
-  animation: heartPump 0.5s ease-in-out infinite;
+  animation: heartPump 2s ease-in-out infinite;
   opacity: 1;
 }
 
-@keyframes heartPump {
+/* @keyframes heartPump {
   0% {
       transform: scale(1);
   }
@@ -40,4 +43,30 @@ body {
   100% {
       transform: scale(1); 
   }
+} */
+
+.contadores {
+  border: 1px solid red; 
+}
+
+.botones{
+  border: 1px solid red; 
+}
+
+.alumnos{
+  border: 1px solid red; 
+}
+
+img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.boton-jugada{
+  background-color: wheat;
+}
+
+p{
+  font-family: "roboto";
 }

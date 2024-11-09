@@ -7,14 +7,30 @@
   <title>Piedra, papel, tijera</title>
 </head>
 <body>
-  <h1>Piedra, papel, tijera</h1>
-  <h2>Agustin Panero, Riccardo Spinelli</h2>
-  <button class="boton-jugada" data-jugada="piedra">Piedra</button>
-  <button class="boton-jugada" data-jugada="papel">Papel</button>
-  <button class="boton-jugada" data-jugada="tijera">Tijera</button>
-  <div id="resultados"></div>
-  <p id="contador-usuario"></p>
-  <p id="contador-ordenador"></p>
+
+  <div class="alumnos">
+    <h1>Piedra, papel, tijera</h1>
+    <h2>Agustin Panero, Riccardo Spinelli</h2>
+  </div>
+  
+  <div class="botones">
+    <button class="boton-jugada" data-jugada="piedra"><img src="/img/piedra.png" alt="piedra"></button>
+    <button class="boton-jugada" data-jugada="papel"><img src="/img/papel.png" alt="papel"></button>
+    <button class="boton-jugada" data-jugada="tijera"><img src="/img/tijera.png" alt="tijera"></button>
+  </div>
+  
+  <div id="resultados">
+    <p>Elección Usuario:</p>
+    <p>Elección PC:</p>
+  </div>
+
+  <div class="contadores">
+    <p id="contador-usuario">El Usuario Tiene: 0 Puntos</p>
+    <p id="contador-ordenador">La PC Tiene: 0 Puntos</p>
+  </div>
+
   <script src="./js/script.js"></script>
+
+
 </body>
 </html>
